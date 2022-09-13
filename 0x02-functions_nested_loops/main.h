@@ -1,2 +1,2 @@
-_putchar([a])
+_putchar(a)
 _putchar(a)
