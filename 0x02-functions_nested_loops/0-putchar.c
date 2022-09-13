@@ -1,9 +1,9 @@
 #include<stdio.h>
 
-main(void)
+int main(void)
 
 {
-	char s[] = "_putchar";
+	char s[] = "putchar";
 	int a;
 
 	a = 0;
@@ -11,11 +11,11 @@ main(void)
 	while (a <= 7)
 
 	{
-		_putchar(s[a]);
+		putchar(s[a]);
 		a++;
 	}
 
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 
 }
