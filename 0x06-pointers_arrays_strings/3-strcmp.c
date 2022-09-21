@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strncpy - function that compares two strings
+ * _strncmp - function that compares two strings
  * @s1: first string
  * @s2: second string
  * Return:
@@ -9,7 +9,7 @@
  *			return positive if s1 > s2
  */
 
-int _strncpy(char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 {
 	int i = 0, diff = 0;
 
