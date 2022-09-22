@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 int main(void)
 
 {
@@ -16,7 +16,6 @@ int main(void)
 		  p = &n;
 
 		    /*
-		     *
 		     *    * write your line of code here...
 		     *
 		     *       * Remember:
@@ -28,8 +27,7 @@ int main(void)
 		     *                * - only one statement
 		     *
 		     *                   * - you are not allowed to code anything else than this line of code
-		     *
-		     *                      */
+		     */
 
 		    *(p + 5) = 98;
 
